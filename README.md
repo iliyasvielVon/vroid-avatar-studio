@@ -15,6 +15,7 @@ tone, and preview motions — with hair/skirt spring-bone cloth physics througho
 > 不用拖任何预制体。
 
 ![演示图](26c16c0c1bfe58409043b16e3117bcb7.png)
+![演示图](0491700fbb6b9975546199962e99fee5.png)
 
 ---
 
