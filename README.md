@@ -14,6 +14,8 @@ tone, and preview motions — with hair/skirt spring-bone cloth physics througho
 > 整个 UI 都是运行时纯代码生成——场景里放一个 `CharacterScreen` 组件，按 Play 即可，
 > 不用拖任何预制体。
 
+![演示图](26c16c0c1bfe58409043b16e3117bcb7.png)
+
 ---
 
 ## English
