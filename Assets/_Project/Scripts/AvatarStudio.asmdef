@@ -1,0 +1,19 @@
+{
+    "name": "AvatarStudio",
+    "rootNamespace": "AvatarStudio",
+    "references": [
+        "VRM",
+        "UniGLTF",
+        "UniGLTF.Utils",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

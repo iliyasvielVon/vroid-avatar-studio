@@ -1,0 +1,53 @@
+# ---- Unity ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity generated
+.vs/
+.vsconfig
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+*.stackdump
+crashlytics-build.properties
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---- Project-specific: keep third-party / heavy assets out of the repo ----
+# User-supplied VRoid models (licensing + size). The drop folder & its readme stay.
+/Assets/StreamingAssets/Avatars/*.vrm
+/Assets/StreamingAssets/Avatars/*.vrm.meta
+
+# Mixamo motion downloads (Adobe assets; users add their own). Drop folder & readme stay.
+/Assets/_Project/Resources/Motions/*.fbx
+/Assets/_Project/Resources/Motions/*.fbx.meta
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini

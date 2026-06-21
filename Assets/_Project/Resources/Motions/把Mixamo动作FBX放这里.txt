@@ -1,0 +1,17 @@
+把 Mixamo 的动作放这里就能在「动作」栏里出现。
+
+步骤：
+1. 打开 https://www.mixamo.com （Adobe 账号免费登录）
+2. 选一个动作（Idle / Wave / Samba Dancing / Walking ...）
+3. 右侧 Download：
+   - Format: FBX Binary(.fbx)
+   - Skin: Without Skin（只要动作，不要带模型，体积小）
+   - Frames per Second: 30
+   - Keyframe Reduction: none
+4. 把下载的 .fbx 直接拖进这个文件夹（Assets/_Project/Resources/Motions/）
+
+Unity 会自动把它设成 Humanoid + 循环（见 Editor/MixamoMotionImporter.cs），
+运行时「动作」栏会自动列出，点一下就播放，自动重定向到你的 VRoid 骨架，
+头发和裙子的弹簧骨物理会跟着动。
+
+注意：这个文件夹必须叫 Resources/Motions（运行时用 Resources.LoadAll 加载）。

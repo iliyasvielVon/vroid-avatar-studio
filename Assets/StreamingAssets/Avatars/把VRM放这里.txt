@@ -1,0 +1,9 @@
+把 VRoid Studio 导出的 .vrm 文件放到这个文件夹里。
+
+导出设置（VRoid Studio → Export → Export as VRM）：
+- VRM Version: 0.0
+- 不要把所有材质合并成一个（否则换装无法分件）
+- 表情 BlendShape 保持默认导出（捏脸面板用得到）
+
+放好后回 Unity 打开 Assets/_Project/Scenes/Character.unity 按 Play。
+可放多个 .vrm（当前默认加载第一个）。
